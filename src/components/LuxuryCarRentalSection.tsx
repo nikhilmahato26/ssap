@@ -233,7 +233,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
 
       <style>{`
         .car-rental-section {
-          background-color: var(--ivory-200);
+          background: linear-gradient(180deg, var(--ivory-200) 0%, #fee4c2 100%);
           position: relative;
         }
 

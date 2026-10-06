@@ -122,7 +122,7 @@ export const HolidayPackagesSection: React.FC<HolidayPackagesSectionProps> = ({ 
 
       <style>{`
         .holiday-section {
-          background-color: var(--ivory-100);
+          background: linear-gradient(180deg, var(--ivory-100) 0%, var(--ivory-200) 100%);
           position: relative;
         }
 

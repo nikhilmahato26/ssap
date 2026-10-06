@@ -21,7 +21,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
   const navLinks = [
     { label: 'Services', href: '#services' },
     { label: 'Luxury Cars', href: '#luxury-car-rental' },
-    { label: 'Pilgrimage Tours', href: '#pilgrimage-tours' },
+    { label: 'Passport', href: '#passport-services' },
+    { label: 'Pilgrimages', href: '#pilgrimage-tours' },
     { label: 'Holiday Tours', href: '#holiday-packages' },
     { label: 'Why SSAP', href: '#why-us' },
     { label: 'About', href: '#about' },

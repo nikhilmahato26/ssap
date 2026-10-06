@@ -11,6 +11,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
       <div className="hero-background-effects">
         <div className="hero-glow-emerald"></div>
         <div className="hero-glow-gold"></div>
+        <div className="hero-glow-orange"></div>
         <div className="hero-pattern-overlay"></div>
       </div>
 
@@ -151,7 +152,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
           padding-top: 4.5rem;
           padding-bottom: 5.5rem;
           overflow: hidden;
-          border-bottom: 2px solid rgba(212, 175, 55, 0.35);
+          border-bottom: 3.5px solid #ea580c;
         }
 
         .hero-background-effects {
@@ -180,6 +181,17 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
           background: radial-gradient(circle, rgba(212, 175, 55, 0.16) 0%, transparent 70%);
           bottom: -100px;
           left: 10%;
+          filter: blur(80px);
+        }
+
+        .hero-glow-orange {
+          position: absolute;
+          width: 550px;
+          height: 550px;
+          border-radius: 50%;
+          background: radial-gradient(circle, rgba(234, 88, 12, 0.28) 0%, transparent 70%);
+          bottom: -120px;
+          right: 12%;
           filter: blur(80px);
         }
 

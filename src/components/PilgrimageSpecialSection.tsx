@@ -143,14 +143,14 @@ export const PilgrimageSpecialSection: React.FC<PilgrimageSpecialSectionProps> =
 
       <style>{`
         .pilgrimage-section {
-          background: linear-gradient(180deg, #faf7ee 0%, #f4ede0 50%, #faf7ee 100%);
+          background: linear-gradient(180deg, #fee4c2 0%, #fed7aa 50%, #fff7ed 100%);
           position: relative;
         }
 
         .spiritual-eyebrow {
-          background: rgba(179, 134, 18, 0.12);
-          border-color: rgba(179, 134, 18, 0.35);
-          color: var(--gold-700);
+          background: rgba(234, 88, 12, 0.12);
+          border-color: rgba(234, 88, 12, 0.35);
+          color: var(--orange-700);
         }
 
         .pilgrimage-grid {
@@ -163,8 +163,8 @@ export const PilgrimageSpecialSection: React.FC<PilgrimageSpecialSectionProps> =
         .pilgrimage-card {
           background: #ffffff;
           border-radius: var(--radius-xl);
-          border: 1.5px solid rgba(212, 175, 55, 0.35);
-          box-shadow: 0 16px 40px rgba(4, 56, 40, 0.08);
+          border: 1.5px solid rgba(234, 88, 12, 0.35);
+          box-shadow: 0 16px 40px rgba(124, 45, 18, 0.1);
           overflow: hidden;
           display: flex;
           flex-direction: column;

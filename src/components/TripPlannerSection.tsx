@@ -33,7 +33,8 @@ export const TripPlannerSection: React.FC<TripPlannerSectionProps> = ({ onSucces
     'Flight Ticket Booking',
     'Holiday & Package Tour Booking',
     'Arupadaiveedu Murugan Temple Special Tour',
-    'Tirupati Srivani VIP Break Darshan Tickets'
+    'Tirupati Srivani VIP Break Darshan Tickets',
+    'Passport Assistance (New & Renewal)'
   ];
 
   const handleSubmit = (e: React.FormEvent) => {
@@ -316,15 +317,15 @@ export const TripPlannerSection: React.FC<TripPlannerSectionProps> = ({ onSucces
 
       <style>{`
         .planner-section {
-          background-color: var(--ivory-200);
+          background: linear-gradient(180deg, var(--ivory-100) 0%, #fee4c2 100%);
           position: relative;
         }
 
         .planner-wrapper {
           background: #ffffff;
           border-radius: var(--radius-xl);
-          border: 1.5px solid rgba(212, 175, 55, 0.35);
-          box-shadow: 0 20px 50px rgba(4, 56, 40, 0.1);
+          border: 1.5px solid rgba(234, 88, 12, 0.35);
+          box-shadow: 0 20px 50px rgba(124, 45, 18, 0.1);
           overflow: hidden;
         }
 

@@ -1,9 +1,23 @@
 /* ==========================================================================
-   SSAP TRAVELS - LUXURY EMERALD & GOLD DESIGN SYSTEM
+   SSAP TRAVELS - WARM ROYAL SUNSET ORANGE & EMERALD LUXURY DESIGN SYSTEM
    ========================================================================== */
 
 :root {
-  /* Color Palette */
+  /* Warm Sunset Orange & Amber Palette */
+  --orange-950: #431407;
+  --orange-900: #7c2d12;
+  --orange-850: #9a3412;
+  --orange-800: #c2410c;
+  --orange-700: #ea580c;
+  --orange-600: #f97316;
+  --orange-500: #fb923c;
+  --orange-400: #fdba74;
+  --orange-300: #fed7aa;
+  --orange-200: #ffedd5;
+  --orange-100: #fff7ed;
+  --orange-50:  #fffaf5;
+
+  /* Deep Emerald Accents */
   --emerald-950: #022016;
   --emerald-900: #043828;
   --emerald-850: #054532;
@@ -23,31 +37,34 @@
   --gold-100: #fdf8e6;
   --gold-50:  #fffdf7;
 
-  /* Ivory / Cream Backgrounds */
+  /* Warm Orange & Amber Ivory Backgrounds */
   --ivory-50:  #ffffff;
-  --ivory-100: #fcfbf7;
-  --ivory-200: #faf7ee;
-  --ivory-300: #f5f0e1;
-  --ivory-400: #ede6d1;
+  --ivory-100: #fff7ed; /* Lightest warm sunset orange cream */
+  --ivory-200: #ffedd5; /* Warm royal sunset orange background */
+  --ivory-300: #fed7aa; /* Rich sunset amber */
+  --ivory-400: #fdba74; /* Warm orange border */
 
   /* Text & Contrast */
-  --text-dark: #052e16;
+  --text-dark: #052e16;  /* Deep forest green delivers ultra-crisp readable contrast */
   --text-body: #1e3a2f;
-  --text-muted: #4e6659;
-  --text-light: #7c9488;
-  --text-ivory: #faf8f2;
+  --text-muted: #524034; /* Warm dark umber/muted */
+  --text-light: #7c6759;
+  --text-ivory: #fff7ed;
 
   /* Gradients */
+  --grad-orange: linear-gradient(135deg, #ea580c 0%, #f97316 45%, #fb923c 80%, #ea580c 100%);
+  --grad-orange-subtle: linear-gradient(135deg, rgba(249, 115, 22, 0.16) 0%, rgba(249, 115, 22, 0.05) 100%);
   --grad-emerald: linear-gradient(135deg, #043828 0%, #064e3b 50%, #085a44 100%);
   --grad-emerald-dark: linear-gradient(180deg, #022016 0%, #043828 100%);
-  --grad-gold: linear-gradient(135deg, #b38612 0%, #d4af37 40%, #f7e49e 70%, #b38612 100%);
-  --grad-gold-subtle: linear-gradient(135deg, rgba(212, 175, 55, 0.15) 0%, rgba(212, 175, 55, 0.05) 100%);
-  --grad-ivory: linear-gradient(180deg, #ffffff 0%, #faf7ee 100%);
+  --grad-gold: linear-gradient(135deg, #ea580c 0%, #f97316 30%, #d4af37 70%, #b38612 100%);
+  --grad-gold-subtle: linear-gradient(135deg, rgba(234, 88, 12, 0.15) 0%, rgba(212, 175, 55, 0.08) 100%);
+  --grad-sunset: linear-gradient(180deg, #fff7ed 0%, #ffedd5 100%);
 
   /* Shadows */
-  --shadow-sm: 0 2px 8px rgba(4, 56, 40, 0.06);
-  --shadow-md: 0 8px 24px rgba(4, 56, 40, 0.08);
-  --shadow-lg: 0 16px 40px rgba(4, 56, 40, 0.12);
+  --shadow-sm: 0 2px 8px rgba(124, 45, 18, 0.06);
+  --shadow-md: 0 8px 24px rgba(124, 45, 18, 0.09);
+  --shadow-lg: 0 16px 40px rgba(124, 45, 18, 0.13);
+  --shadow-orange: 0 8px 30px rgba(234, 88, 12, 0.3);
   --shadow-gold: 0 8px 30px rgba(212, 175, 55, 0.28);
   --shadow-emerald: 0 12px 36px rgba(4, 56, 40, 0.25);
 
@@ -77,17 +94,18 @@ html {
   scroll-behavior: smooth;
   font-family: var(--font-sans);
   color: var(--text-body);
-  background-color: var(--ivory-200);
+  background-color: #ffedd5;
   line-height: 1.6;
   -webkit-font-smoothing: antialiased;
 }
 
 body {
   overflow-x: hidden;
-  background-color: var(--ivory-200);
+  background-color: #ffedd5;
   background-image: 
-    radial-gradient(circle at 10% 20%, rgba(212, 175, 55, 0.03) 0%, transparent 20%),
-    radial-gradient(circle at 90% 80%, rgba(6, 78, 59, 0.03) 0%, transparent 25%);
+    radial-gradient(circle at 10% 12%, rgba(249, 115, 22, 0.14) 0%, transparent 40%),
+    radial-gradient(circle at 90% 88%, rgba(234, 88, 12, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 50% 35%, rgba(254, 215, 170, 0.45) 0%, transparent 60%);
   color: var(--text-body);
   min-height: 100vh;
 }
@@ -166,9 +184,9 @@ button {
   font-weight: 800;
   letter-spacing: 2.5px;
   text-transform: uppercase;
-  color: var(--gold-600);
-  background: rgba(212, 175, 55, 0.12);
-  border: 1px solid rgba(212, 175, 55, 0.35);
+  color: var(--orange-700);
+  background: rgba(234, 88, 12, 0.12);
+  border: 1px solid rgba(234, 88, 12, 0.35);
   padding: 0.4rem 1.1rem;
   border-radius: var(--radius-full);
   margin-bottom: 1rem;
@@ -194,7 +212,7 @@ button {
   margin: 0 auto;
 }
 
-/* Gold Ornamental Border Details */
+/* Gold / Orange Ornamental Divider */
 .ornament-divider {
   display: flex;
   align-items: center;
@@ -204,17 +222,17 @@ button {
 }
 
 .ornament-line {
-  height: 1px;
+  height: 1.5px;
   width: 45px;
-  background: linear-gradient(90deg, transparent, var(--gold-500), transparent);
+  background: linear-gradient(90deg, transparent, #ea580c, transparent);
 }
 
 .ornament-diamond {
-  width: 7px;
-  height: 7px;
-  background: var(--gold-500);
+  width: 8px;
+  height: 8px;
+  background: #ea580c;
   transform: rotate(45deg);
-  box-shadow: 0 0 6px rgba(212, 175, 55, 0.6);
+  box-shadow: 0 0 8px rgba(234, 88, 12, 0.65);
 }
 
 /* Luxury Buttons */
@@ -223,14 +241,14 @@ button {
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
-  background: var(--grad-gold);
-  color: #04261b;
+  background: linear-gradient(135deg, #ea580c 0%, #f97316 35%, #d4af37 70%, #b38612 100%);
+  color: #ffffff;
   font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: 0.4px;
   padding: 0.85rem 1.8rem;
   border-radius: var(--radius-md);
-  box-shadow: 0 4px 16px rgba(212, 175, 55, 0.35);
+  box-shadow: 0 4px 18px rgba(234, 88, 12, 0.35);
   border: 1px solid rgba(255, 255, 255, 0.4);
   position: relative;
   overflow: hidden;
@@ -239,8 +257,31 @@ button {
 
 .btn-gold:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 24px rgba(212, 175, 55, 0.5);
-  color: #021a12;
+  box-shadow: 0 8px 26px rgba(234, 88, 12, 0.5);
+  color: #ffffff;
+}
+
+.btn-orange {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  background: linear-gradient(135deg, #c2410c 0%, #ea580c 40%, #f97316 100%);
+  color: #ffffff;
+  font-weight: 800;
+  font-size: 0.95rem;
+  letter-spacing: 0.4px;
+  padding: 0.85rem 1.8rem;
+  border-radius: var(--radius-md);
+  box-shadow: 0 4px 18px rgba(234, 88, 12, 0.35);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.btn-orange:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 25px rgba(234, 88, 12, 0.5);
+  color: #ffffff;
 }
 
 .btn-emerald {
@@ -256,7 +297,7 @@ button {
   padding: 0.85rem 1.8rem;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-emerald);
-  border: 1px solid rgba(212, 175, 55, 0.4);
+  border: 1px solid rgba(234, 88, 12, 0.4);
   position: relative;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
@@ -265,7 +306,7 @@ button {
 .btn-emerald:hover {
   transform: translateY(-2px);
   box-shadow: 0 8px 28px rgba(4, 56, 40, 0.35);
-  border-color: var(--gold-400);
+  border-color: #ea580c;
 }
 
 .btn-outline-gold {
@@ -273,21 +314,21 @@ button {
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
-  background: rgba(255, 255, 255, 0.7);
+  background: rgba(255, 255, 255, 0.85);
   color: var(--emerald-900);
   font-weight: 700;
   font-size: 0.95rem;
   padding: 0.85rem 1.8rem;
   border-radius: var(--radius-md);
-  border: 1.5px solid var(--gold-500);
+  border: 1.5px solid #ea580c;
   backdrop-filter: blur(8px);
   transition: all 0.2s ease;
 }
 
 .btn-outline-gold:hover {
-  background: var(--emerald-900);
-  color: var(--gold-300);
-  border-color: var(--gold-400);
+  background: #ea580c;
+  color: #ffffff;
+  border-color: #c2410c;
   transform: translateY(-2px);
 }
 
@@ -303,12 +344,12 @@ button {
   padding: 0.85rem 1.8rem;
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-sm);
-  border: 1px solid rgba(4, 56, 40, 0.1);
+  border: 1.5px solid rgba(234, 88, 12, 0.25);
 }
 
 .btn-white:hover {
-  background: var(--gold-50);
-  border-color: var(--gold-400);
+  background: #fff7ed;
+  border-color: #ea580c;
   color: var(--emerald-950);
   transform: translateY(-2px);
 }
@@ -316,24 +357,24 @@ button {
 /* Cards & Surfaces */
 .luxury-card {
   background: #ffffff;
-  border: 1px solid rgba(212, 175, 55, 0.2);
+  border: 1.5px solid rgba(234, 88, 12, 0.22);
   border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-sm);
+  box-shadow: 0 4px 16px rgba(124, 45, 18, 0.06);
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   position: relative;
 }
 
 .luxury-card:hover {
   transform: translateY(-4px);
-  box-shadow: var(--shadow-lg);
-  border-color: rgba(212, 175, 55, 0.5);
+  box-shadow: 0 16px 40px rgba(124, 45, 18, 0.14);
+  border-color: #ea580c;
 }
 
 .emerald-banner {
   background: var(--grad-emerald);
   color: var(--ivory-50);
   border-radius: var(--radius-xl);
-  border: 1px solid rgba(212, 175, 55, 0.35);
+  border: 1.5px solid rgba(234, 88, 12, 0.45);
   box-shadow: var(--shadow-emerald);
   position: relative;
   overflow: hidden;
@@ -366,9 +407,9 @@ button {
   text-transform: uppercase;
   padding: 0.3rem 0.75rem;
   border-radius: var(--radius-full);
-  background: rgba(212, 175, 55, 0.14);
-  color: var(--gold-700);
-  border: 1px solid rgba(212, 175, 55, 0.3);
+  background: rgba(234, 88, 12, 0.12);
+  color: var(--orange-700);
+  border: 1px solid rgba(234, 88, 12, 0.3);
 }
 
 .luxury-tag-emerald {

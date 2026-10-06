@@ -51,7 +51,8 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose, def
     'Flight Ticket Booking',
     'Holiday & Package Tour Booking',
     'Arupadaiveedu Murugan Temple Special Tour',
-    'Tirupati Srivani VIP Break Darshan Tickets'
+    'Tirupati Srivani VIP Break Darshan Tickets',
+    'Passport Assistance (New & Renewal)'
   ];
 
   const handleSubmit = (e: React.FormEvent) => {

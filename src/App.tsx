@@ -6,6 +6,7 @@ import { AboutSection } from './components/AboutSection';
 import { ServicesSection } from './components/ServicesSection';
 import { LuxuryCarRentalSection } from './components/LuxuryCarRentalSection';
 import { PilgrimageSpecialSection } from './components/PilgrimageSpecialSection';
+import { PassportSection } from './components/PassportSection';
 import { HolidayPackagesSection } from './components/HolidayPackagesSection';
 import { BrandPromisesSection } from './components/BrandPromisesSection';
 import { TripPlannerSection } from './components/TripPlannerSection';
@@ -54,8 +55,11 @@ export function App() {
       {/* About Section */}
       <AboutSection onOpenEnquiry={() => handleOpenEnquiry('General Travel Consultation')} />
 
-      {/* Services Section (All 8 Services) */}
+      {/* Services Section (All Services including Passport Assistance) */}
       <ServicesSection onSelectService={handleOpenEnquiry} />
+
+      {/* Dedicated Passport Application & Renewal Section */}
+      <PassportSection onOpenEnquiry={handleOpenEnquiry} />
 
       {/* Luxury Car Rental Section */}
       <LuxuryCarRentalSection onEnquireCar={(carName) => handleOpenEnquiry(carName ? `Car Rental: ${carName}` : 'Luxury Car Rental in Bangalore')} />

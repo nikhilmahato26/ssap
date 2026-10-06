@@ -14,7 +14,8 @@ export const Footer: React.FC<FooterProps> = ({ onSelectService }) => {
     'Flight Ticket Booking',
     'Holiday & Package Tours',
     'Arupadaiveedu Murugan Temple Special Tour',
-    'Tirupati Srivani VIP Break Darshan Tickets'
+    'Tirupati Srivani VIP Break Darshan Tickets',
+    'Passport Assistance (New & Renewal)'
   ];
 
   return (

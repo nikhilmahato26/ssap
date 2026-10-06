@@ -74,8 +74,8 @@ export const QuickServiceBar: React.FC<QuickServiceBarProps> = ({ onSelectServic
           background: #ffffff;
           border-radius: var(--radius-xl);
           padding: 1.5rem;
-          box-shadow: 0 16px 45px rgba(4, 56, 40, 0.14);
-          border: 1.5px solid rgba(212, 175, 55, 0.35);
+          box-shadow: 0 16px 45px rgba(124, 45, 18, 0.12);
+          border: 1.5px solid rgba(234, 88, 12, 0.35);
         }
 
         .quick-bar-grid {
@@ -85,8 +85,8 @@ export const QuickServiceBar: React.FC<QuickServiceBarProps> = ({ onSelectServic
         }
 
         .quick-service-card {
-          background: var(--ivory-100);
-          border: 1px solid rgba(212, 175, 55, 0.2);
+          background: #fffaf5;
+          border: 1px solid rgba(234, 88, 12, 0.2);
           border-radius: var(--radius-lg);
           padding: 1.35rem 1.15rem;
           display: flex;
@@ -105,7 +105,7 @@ export const QuickServiceBar: React.FC<QuickServiceBarProps> = ({ onSelectServic
           left: 0;
           right: 0;
           height: 3px;
-          background: var(--grad-gold);
+          background: var(--grad-orange);
           opacity: 0;
           transition: opacity 0.25s ease;
         }
@@ -113,8 +113,8 @@ export const QuickServiceBar: React.FC<QuickServiceBarProps> = ({ onSelectServic
         .quick-service-card:hover {
           transform: translateY(-4px);
           background: #ffffff;
-          border-color: var(--gold-500);
-          box-shadow: 0 10px 25px rgba(4, 56, 40, 0.1);
+          border-color: var(--orange-600);
+          box-shadow: 0 10px 25px rgba(194, 65, 12, 0.12);
         }
 
         .quick-service-card:hover::before {

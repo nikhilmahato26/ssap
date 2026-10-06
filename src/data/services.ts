@@ -8,7 +8,7 @@ export interface ServiceItem {
   tag?: string;
   ctaText: string;
   image?: string;
-  category: 'rental' | 'ticketing' | 'pilgrimage' | 'holiday';
+  category: 'rental' | 'ticketing' | 'pilgrimage' | 'holiday' | 'passport';
 }
 
 export const servicesData: ServiceItem[] = [
@@ -107,6 +107,18 @@ export const servicesData: ServiceItem[] = [
     ctaText: 'Enquire for Availability',
     image: '/images/temple-pilgrimage.jpg',
     category: 'pilgrimage'
+  },
+  {
+    id: 'passport-services',
+    number: '09',
+    title: 'Passport Assistance (New & Renewal)',
+    shortDesc: 'We help applying new passport and renewal.',
+    details: 'Complete end-to-end guidance for fresh passport applications, passport renewals, tatkal quota appointments, document verification, and Passport Seva Kendra slot booking in Bangalore.',
+    iconName: 'FileCheck',
+    tag: 'New & Renewal',
+    ctaText: 'Enquire for Passport Help',
+    image: '/images/passport-service.jpg',
+    category: 'passport'
   }
 ];
 

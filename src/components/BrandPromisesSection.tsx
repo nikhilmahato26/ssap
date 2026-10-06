@@ -105,7 +105,7 @@ export const BrandPromisesSection: React.FC = () => {
 
       <style>{`
         .promises-section {
-          background-color: var(--ivory-200);
+          background: linear-gradient(180deg, var(--ivory-200) 0%, var(--ivory-100) 100%);
           position: relative;
         }
 

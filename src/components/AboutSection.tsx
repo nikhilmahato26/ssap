@@ -140,7 +140,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
 
       <style>{`
         .about-section {
-          background-color: var(--ivory-200);
+          background: linear-gradient(180deg, var(--ivory-200) 0%, var(--ivory-100) 100%);
           position: relative;
         }
 

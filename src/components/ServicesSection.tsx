@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { 
   Car, Train, Bus, Navigation, Plane, Compass, Sparkles, Crown, 
-  ArrowRight 
+  ArrowRight, FileCheck 
 } from 'lucide-react';
 import { servicesData } from '../data/services';
 import type { ServiceItem } from '../data/services';
@@ -11,7 +11,7 @@ interface ServicesSectionProps {
 }
 
 export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectService }) => {
-  const [filter, setFilter] = useState<'all' | 'rental' | 'ticketing' | 'pilgrimage' | 'holiday'>('all');
+  const [filter, setFilter] = useState<'all' | 'rental' | 'ticketing' | 'passport' | 'pilgrimage' | 'holiday'>('all');
 
   const filteredServices = filter === 'all' 
     ? servicesData 
@@ -35,6 +35,8 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
         return <Sparkles size={24} />;
       case 'Crown':
         return <Crown size={24} />;
+      case 'FileCheck':
+        return <FileCheck size={24} />;
       default:
         return <Sparkles size={24} />;
     }
@@ -56,7 +58,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
             <div className="ornament-line"></div>
           </div>
           <p className="section-desc">
-            Complete, dependable travel solutions tailored to modern business travellers, families, and spiritual pilgrims.
+            Complete, dependable travel solutions tailored to modern business travellers, families, spiritual pilgrims, and international travelers.
           </p>
 
           {/* Filter Pills */}
@@ -65,7 +67,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
               className={`filter-pill ${filter === 'all' ? 'active' : ''}`}
               onClick={() => setFilter('all')}
             >
-              All Services (8)
+              All Services ({servicesData.length})
             </button>
             <button 
               className={`filter-pill ${filter === 'rental' ? 'active' : ''}`}
@@ -78,6 +80,12 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
               onClick={() => setFilter('ticketing')}
             >
               Ticket Booking
+            </button>
+            <button 
+              className={`filter-pill ${filter === 'passport' ? 'active' : ''}`}
+              onClick={() => setFilter('passport')}
+            >
+              Passport Assistance
             </button>
             <button 
               className={`filter-pill ${filter === 'pilgrimage' ? 'active' : ''}`}
@@ -149,7 +157,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
 
       <style>{`
         .services-section {
-          background-color: var(--ivory-100);
+          background: linear-gradient(180deg, var(--ivory-100) 0%, var(--ivory-200) 100%);
           position: relative;
         }
 
