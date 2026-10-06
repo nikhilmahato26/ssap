@@ -174,7 +174,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
           padding: 0.45rem 1.15rem;
           font-size: 0.85rem;
           font-weight: 700;
-          color: var(--emerald-900);
+          color: var(--orange-900);
           background: #ffffff;
           border: 1px solid rgba(212, 175, 55, 0.3);
           border-radius: var(--radius-full);
@@ -187,10 +187,10 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
         }
 
         .filter-pill.active {
-          background: var(--emerald-900);
+          background: var(--orange-900);
           color: var(--gold-300);
           border-color: var(--gold-400);
-          box-shadow: 0 4px 14px rgba(4, 56, 40, 0.2);
+          box-shadow: 0 4px 14px rgba(234, 88, 12, 0.25);
         }
 
         /* Services Grid */
@@ -212,7 +212,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
 
         .service-card:hover {
           transform: translateY(-6px);
-          box-shadow: 0 16px 36px rgba(4, 56, 40, 0.12);
+          box-shadow: 0 16px 36px rgba(124, 45, 18, 0.12);
           border-color: var(--gold-500);
         }
 
@@ -237,7 +237,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
         .media-overlay {
           position: absolute;
           inset: 0;
-          background: linear-gradient(180deg, rgba(2, 32, 22, 0.2) 0%, rgba(2, 32, 22, 0.75) 100%);
+          background: linear-gradient(180deg, rgba(44, 14, 5, 0.15) 0%, rgba(44, 14, 5, 0.75) 100%);
         }
 
         .service-number-badge {
@@ -248,7 +248,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
           font-size: 0.82rem;
           font-weight: 800;
           color: var(--gold-300);
-          background: rgba(4, 56, 40, 0.85);
+          background: rgba(44, 14, 5, 0.85);
           border: 1px solid rgba(212, 175, 55, 0.5);
           border-radius: 6px;
           padding: 0.2rem 0.55rem;
@@ -263,9 +263,8 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
           font-weight: 700;
           text-transform: uppercase;
           letter-spacing: 0.5px;
-          color: #ffffff;
           background: rgba(212, 175, 55, 0.85);
-          color: #04261b;
+          color: var(--text-dark);
           border-radius: var(--radius-full);
           padding: 0.2rem 0.65rem;
           font-weight: 800;
@@ -289,17 +288,17 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
           width: 44px;
           height: 44px;
           border-radius: 10px;
-          background: rgba(6, 78, 59, 0.08);
+          background: rgba(234, 88, 12, 0.1);
           border: 1px solid rgba(212, 175, 55, 0.3);
           display: flex;
           align-items: center;
           justify-content: center;
-          color: var(--emerald-800);
+          color: var(--orange-700);
           transition: all 0.25s ease;
         }
 
         .service-card:hover .service-icon-box {
-          background: var(--emerald-800);
+          background: var(--orange-800);
           color: var(--gold-300);
           border-color: var(--gold-400);
         }
@@ -322,7 +321,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
         .service-short-desc {
           font-size: 0.9rem;
           font-weight: 700;
-          color: var(--emerald-850);
+          color: var(--orange-800);
           margin-bottom: 0.55rem;
           line-height: 1.35;
         }
@@ -338,7 +337,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
         .service-card-footer {
           margin-top: auto;
           padding-top: 1rem;
-          border-top: 1px solid rgba(6, 78, 59, 0.08);
+          border-top: 1px solid rgba(194, 65, 12, 0.12);
         }
 
         .service-enquire-btn {
@@ -349,7 +348,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
           gap: 0.5rem;
           background: var(--ivory-200);
           border: 1px solid rgba(212, 175, 55, 0.35);
-          color: var(--emerald-900);
+          color: var(--orange-900);
           font-weight: 700;
           font-size: 0.86rem;
           padding: 0.65rem 1rem;
@@ -358,7 +357,7 @@ export const ServicesSection: React.FC<ServicesSectionProps> = ({ onSelectServic
         }
 
         .service-card:hover .service-enquire-btn {
-          background: var(--grad-emerald);
+          background: var(--grad-orange-deep);
           color: var(--gold-300);
           border-color: var(--gold-400);
         }

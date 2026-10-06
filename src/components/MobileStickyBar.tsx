@@ -50,7 +50,7 @@ export const MobileStickyBar: React.FC<MobileStickyBarProps> = ({ onOpenEnquiry 
           bottom: 0;
           left: 0;
           right: 0;
-          background: rgba(2, 32, 22, 0.98);
+          background: rgba(44, 14, 5, 0.98);
           backdrop-filter: blur(12px);
           border-top: 1.5px solid var(--gold-500);
           z-index: 1500;
@@ -90,7 +90,7 @@ export const MobileStickyBar: React.FC<MobileStickyBarProps> = ({ onOpenEnquiry 
 
         .btn-enquire {
           background: var(--grad-gold);
-          color: #04261b;
+          color: var(--text-dark);
           font-weight: 800;
         }
 

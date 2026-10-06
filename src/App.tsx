@@ -101,7 +101,7 @@ export function App() {
           position: fixed;
           top: 85px;
           right: 25px;
-          background: var(--emerald-900);
+          background: var(--orange-900);
           color: #ffffff;
           border: 1px solid var(--gold-400);
           border-radius: var(--radius-md);

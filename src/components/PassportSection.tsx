@@ -228,7 +228,7 @@ export const PassportSection: React.FC<PassportSectionProps> = ({ onOpenEnquiry 
           position: absolute;
           bottom: 14px;
           left: 14px;
-          background: rgba(4, 56, 40, 0.92);
+          background: rgba(44, 14, 5, 0.92);
           border: 1.5px solid var(--gold-400);
           border-radius: var(--radius-md);
           padding: 0.5rem 0.85rem;
@@ -268,7 +268,7 @@ export const PassportSection: React.FC<PassportSectionProps> = ({ onOpenEnquiry 
           gap: 0.45rem;
           font-size: 0.78rem;
           font-weight: 700;
-          color: var(--emerald-950);
+          color: var(--orange-950);
         }
 
         .step-num {
@@ -355,7 +355,7 @@ export const PassportSection: React.FC<PassportSectionProps> = ({ onOpenEnquiry 
         .feat-title {
           font-size: 0.92rem;
           font-weight: 800;
-          color: var(--emerald-950);
+          color: var(--orange-950);
           margin-bottom: 0.25rem;
         }
 
@@ -420,14 +420,14 @@ export const PassportSection: React.FC<PassportSectionProps> = ({ onOpenEnquiry 
           gap: 0.4rem;
           font-size: 0.88rem;
           font-weight: 800;
-          color: var(--emerald-900);
+          color: var(--orange-900);
           padding: 0.8rem 1rem;
-          border: 1.5px solid var(--emerald-800);
+          border: 1.5px solid var(--orange-600);
           border-radius: var(--radius-md);
         }
 
         .passport-call-link:hover {
-          background: var(--emerald-800);
+          background: var(--orange-600);
           color: #ffffff;
         }
 

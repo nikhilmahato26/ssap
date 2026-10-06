@@ -120,7 +120,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
 
             {/* Action Bar */}
             <div className="about-action-row">
-              <button onClick={onOpenEnquiry} className="btn-emerald">
+              <button onClick={onOpenEnquiry} className="btn-orange">
                 Plan Your Journey
               </button>
 
@@ -162,7 +162,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
           border-radius: var(--radius-xl);
           padding: 1.25rem;
           border: 1.5px solid rgba(212, 175, 55, 0.35);
-          box-shadow: 0 18px 45px rgba(4, 56, 40, 0.1);
+          box-shadow: 0 18px 45px rgba(67, 20, 7, 0.12);
         }
 
         .about-image-wrap {
@@ -182,14 +182,14 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
         .about-image-gradient {
           position: absolute;
           inset: 0;
-          background: linear-gradient(180deg, transparent 70%, rgba(4, 56, 40, 0.6) 100%);
+          background: linear-gradient(180deg, transparent 70%, rgba(44, 14, 5, 0.65) 100%);
         }
 
         .about-quality-stamp {
           position: absolute;
           top: -15px;
           right: -15px;
-          background: var(--grad-emerald);
+          background: var(--grad-orange-deep);
           border: 2px solid var(--gold-400);
           border-radius: 50%;
           width: 110px;
@@ -197,7 +197,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
           display: flex;
           align-items: center;
           justify-content: center;
-          box-shadow: 0 8px 24px rgba(4, 56, 40, 0.35);
+          box-shadow: 0 8px 24px rgba(234, 88, 12, 0.35);
         }
 
         .stamp-inner {
@@ -243,7 +243,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
         .op-badge-title {
           font-size: 0.75rem;
           font-weight: 800;
-          color: var(--emerald-900);
+          color: var(--orange-900);
           letter-spacing: 0.5px;
         }
 
@@ -285,7 +285,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
 
         .lead-paragraph {
           font-size: 1.12rem;
-          color: var(--emerald-950);
+          color: var(--orange-950);
           line-height: 1.7;
         }
 
@@ -311,9 +311,9 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
           width: 38px;
           height: 38px;
           border-radius: 10px;
-          background: rgba(6, 78, 59, 0.1);
-          color: var(--emerald-800);
-          border: 1px solid rgba(6, 78, 59, 0.2);
+          background: rgba(234, 88, 12, 0.12);
+          color: var(--orange-700);
+          border: 1px solid rgba(234, 88, 12, 0.25);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -353,7 +353,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
           border-radius: 50%;
           background: rgba(212, 175, 55, 0.15);
           border: 1px solid var(--gold-400);
-          color: var(--emerald-900);
+          color: var(--orange-800);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -368,7 +368,7 @@ export const AboutSection: React.FC<AboutSectionProps> = ({ onOpenEnquiry }) => 
         .about-call-num {
           font-size: 0.95rem;
           font-weight: 800;
-          color: var(--emerald-950);
+          color: var(--orange-950);
         }
 
         @media (max-width: 1024px) {

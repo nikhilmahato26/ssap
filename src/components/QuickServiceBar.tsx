@@ -132,17 +132,17 @@ export const QuickServiceBar: React.FC<QuickServiceBarProps> = ({ onSelectServic
           width: 48px;
           height: 48px;
           border-radius: 12px;
-          background: rgba(6, 78, 59, 0.08);
-          border: 1px solid rgba(6, 78, 59, 0.18);
+          background: rgba(234, 88, 12, 0.1);
+          border: 1px solid rgba(234, 88, 12, 0.25);
           display: flex;
           align-items: center;
           justify-content: center;
-          color: var(--emerald-800);
+          color: var(--orange-700);
           transition: all 0.25s ease;
         }
 
         .quick-service-card:hover .icon-container {
-          background: var(--emerald-800);
+          background: var(--orange-800);
           color: var(--gold-300);
           border-color: var(--gold-500);
         }
@@ -182,13 +182,13 @@ export const QuickServiceBar: React.FC<QuickServiceBarProps> = ({ onSelectServic
           align-items: center;
           justify-content: space-between;
           padding-top: 0.75rem;
-          border-top: 1px solid rgba(6, 78, 59, 0.08);
+          border-top: 1px solid rgba(194, 65, 12, 0.12);
         }
 
         .action-text {
           font-size: 0.82rem;
           font-weight: 700;
-          color: var(--emerald-800);
+          color: var(--orange-700);
           letter-spacing: 0.3px;
           transition: color 0.2s ease;
         }
@@ -201,8 +201,8 @@ export const QuickServiceBar: React.FC<QuickServiceBarProps> = ({ onSelectServic
           width: 26px;
           height: 26px;
           border-radius: 50%;
-          background: rgba(6, 78, 59, 0.08);
-          color: var(--emerald-800);
+          background: rgba(234, 88, 12, 0.1);
+          color: var(--orange-700);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -211,7 +211,7 @@ export const QuickServiceBar: React.FC<QuickServiceBarProps> = ({ onSelectServic
 
         .quick-service-card:hover .action-arrow-circle {
           background: var(--gold-500);
-          color: #04261b;
+          color: var(--text-dark);
           transform: translateX(3px);
         }
 

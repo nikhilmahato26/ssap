@@ -45,7 +45,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
         </div>
 
         {/* Spotlight Showcase Banner */}
-        <div className="car-spotlight-card emerald-banner">
+        <div className="car-spotlight-card orange-banner">
           <div className="spotlight-grid">
             <div className="spotlight-content">
               <div className="spotlight-tag">
@@ -294,7 +294,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
           display: inline-flex;
           align-items: center;
           gap: 0.5rem;
-          background: rgba(4, 56, 40, 0.85);
+          background: rgba(44, 14, 5, 0.85);
           border: 1px solid rgba(212, 175, 55, 0.3);
           border-radius: var(--radius-md);
           padding: 0.45rem 0.85rem;
@@ -377,7 +377,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
         .spotlight-image-glow {
           position: absolute;
           inset: 0;
-          background: radial-gradient(circle at center, transparent 40%, rgba(2, 32, 22, 0.5) 100%);
+          background: radial-gradient(circle at center, transparent 40%, rgba(44, 14, 5, 0.5) 100%);
           pointer-events: none;
         }
 
@@ -405,7 +405,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
         .fleet-filter-label {
           font-size: 0.95rem;
           font-weight: 800;
-          color: var(--emerald-950);
+          color: var(--orange-950);
           letter-spacing: 0.3px;
         }
 
@@ -421,7 +421,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
           font-weight: 700;
           border-radius: var(--radius-md);
           background: #ffffff;
-          color: var(--emerald-900);
+          color: var(--orange-900);
           border: 1px solid rgba(212, 175, 55, 0.25);
           transition: all 0.2s ease;
         }
@@ -432,7 +432,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
         }
 
         .fleet-tab.active {
-          background: var(--emerald-900);
+          background: var(--orange-900);
           color: var(--gold-300);
           border-color: var(--gold-400);
         }
@@ -483,7 +483,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
           font-size: 0.72rem;
           font-weight: 800;
           letter-spacing: 0.5px;
-          color: #04261b;
+          color: var(--text-dark);
           background: var(--grad-gold);
           border-radius: var(--radius-full);
           padding: 0.2rem 0.65rem;
@@ -497,7 +497,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
           font-size: 0.7rem;
           font-weight: 700;
           color: #ffffff;
-          background: rgba(4, 56, 40, 0.85);
+          background: rgba(44, 14, 5, 0.85);
           backdrop-filter: blur(4px);
           border: 1px solid rgba(212, 175, 55, 0.4);
           border-radius: var(--radius-full);
@@ -523,7 +523,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
           gap: 1rem;
           margin-bottom: 0.75rem;
           padding-bottom: 0.75rem;
-          border-bottom: 1px solid rgba(6, 78, 59, 0.08);
+          border-bottom: 1px solid rgba(194, 65, 12, 0.12);
         }
 
         .fleet-spec-item {
@@ -532,7 +532,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
           gap: 0.35rem;
           font-size: 0.78rem;
           font-weight: 700;
-          color: var(--emerald-850);
+          color: var(--orange-800);
         }
 
         .fleet-card-desc {
@@ -557,7 +557,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
           font-size: 0.72rem;
           font-weight: 600;
           background: var(--ivory-200);
-          color: var(--emerald-900);
+          color: var(--orange-900);
           padding: 0.2rem 0.5rem;
           border-radius: 4px;
           border: 1px solid rgba(212, 175, 55, 0.2);
@@ -602,7 +602,7 @@ export const LuxuryCarRentalSection: React.FC<LuxuryCarRentalSectionProps> = ({ 
         .use-case-title {
           font-size: 0.92rem;
           font-weight: 800;
-          color: var(--emerald-950);
+          color: var(--orange-950);
           margin-bottom: 0.2rem;
         }
 

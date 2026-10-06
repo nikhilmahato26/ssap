@@ -163,7 +163,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectService }) => {
 
       <style>{`
         .site-footer {
-          background: linear-gradient(180deg, #022016 0%, #01140e 100%);
+          background: linear-gradient(180deg, #2c0e05 0%, #170702 100%);
           color: var(--ivory-50);
           position: relative;
           padding-top: 4.5rem;
@@ -198,7 +198,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectService }) => {
         .footer-logo-badge {
           width: 44px;
           height: 44px;
-          background: linear-gradient(135deg, #054532 0%, #03271c 100%);
+          background: linear-gradient(135deg, #7c2d12 0%, #431407 100%);
           border: 1.5px solid var(--gold-500);
           border-radius: 8px;
           display: flex;
@@ -277,7 +277,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectService }) => {
           font-size: 0.7rem;
           font-weight: 800;
           letter-spacing: 1px;
-          color: #04261b;
+          color: var(--text-dark);
           background: var(--gold-400);
           padding: 0.2rem 0.55rem;
           border-radius: var(--radius-full);
@@ -384,7 +384,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectService }) => {
           font-size: 0.78rem;
           font-weight: 700;
           color: var(--gold-300);
-          background: rgba(4, 56, 40, 0.6);
+          background: rgba(67, 20, 7, 0.6);
           border: 1px solid rgba(212, 175, 55, 0.25);
           padding: 0.4rem 0.85rem;
           border-radius: var(--radius-full);
@@ -392,7 +392,7 @@ export const Footer: React.FC<FooterProps> = ({ onSelectService }) => {
 
         /* Disclaimer Strip */
         .footer-disclaimer-strip {
-          background: rgba(4, 56, 40, 0.4);
+          background: rgba(67, 20, 7, 0.4);
           border: 1px solid rgba(212, 175, 55, 0.2);
           border-radius: var(--radius-md);
           padding: 1rem 1.25rem;

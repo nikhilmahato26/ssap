@@ -126,7 +126,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose, def
                     <MessageSquare size={16} />
                     <span>WhatsApp</span>
                   </button>
-                  <a href={`tel:${BRAND_CONTACT.primaryPhoneRaw}`} className="btn-emerald connect-btn">
+                  <a href={`tel:${BRAND_CONTACT.primaryPhoneRaw}`} className="btn-orange connect-btn">
                     <Phone size={16} />
                     <span>Call Now</span>
                   </a>
@@ -262,7 +262,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose, def
         .modal-backdrop {
           position: fixed;
           inset: 0;
-          background: rgba(2, 32, 22, 0.75);
+          background: rgba(44, 14, 5, 0.78);
           backdrop-filter: blur(8px);
           z-index: 2000;
           display: flex;
@@ -294,7 +294,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose, def
         }
 
         .modal-header {
-          background: var(--grad-emerald);
+          background: var(--grad-orange-deep);
           color: #ffffff;
           padding: 1.25rem 1.75rem;
           display: flex;
@@ -360,14 +360,14 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose, def
         .modal-label {
           font-size: 0.76rem;
           font-weight: 700;
-          color: var(--emerald-950);
+          color: var(--orange-950);
           letter-spacing: 0.3px;
         }
 
         .modal-input, .modal-select, .modal-textarea {
           width: 100%;
           padding: 0.65rem 0.85rem;
-          border: 1.5px solid rgba(6, 78, 59, 0.2);
+          border: 1.5px solid rgba(194, 65, 12, 0.22);
           border-radius: var(--radius-md);
           font-size: 0.9rem;
           font-family: var(--font-sans);
@@ -377,8 +377,8 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose, def
 
         .modal-input:focus, .modal-select:focus, .modal-textarea:focus {
           outline: none;
-          border-color: var(--emerald-800);
-          box-shadow: 0 0 0 3px rgba(6, 78, 59, 0.1);
+          border-color: var(--orange-600);
+          box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.15);
           background: #ffffff;
         }
 
@@ -426,13 +426,13 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose, def
           font-size: 0.75rem;
           color: var(--text-muted);
           padding-top: 0.75rem;
-          border-top: 1px solid rgba(6, 78, 59, 0.08);
+          border-top: 1px solid rgba(194, 65, 12, 0.12);
           flex-wrap: wrap;
         }
 
         .helpline-link {
           font-weight: 700;
-          color: var(--emerald-900);
+          color: var(--orange-800);
         }
 
         .helpline-link:hover {
@@ -450,7 +450,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose, def
 
         .modal-success-view h4 {
           font-size: 1.45rem;
-          color: var(--emerald-950);
+          color: var(--orange-950);
           margin-bottom: 0.5rem;
         }
 
@@ -481,7 +481,7 @@ export const EnquiryModal: React.FC<EnquiryModalProps> = ({ isOpen, onClose, def
         .connect-intro {
           font-size: 0.82rem;
           font-weight: 700;
-          color: var(--emerald-900);
+          color: var(--orange-800);
           margin-bottom: 0.65rem;
         }
 

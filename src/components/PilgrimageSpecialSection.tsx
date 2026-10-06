@@ -173,7 +173,7 @@ export const PilgrimageSpecialSection: React.FC<PilgrimageSpecialSectionProps> =
 
         .pilgrimage-card:hover {
           transform: translateY(-5px);
-          box-shadow: 0 20px 48px rgba(4, 56, 40, 0.14);
+          box-shadow: 0 20px 48px rgba(124, 45, 18, 0.14);
           border-color: var(--gold-500);
         }
 
@@ -198,7 +198,7 @@ export const PilgrimageSpecialSection: React.FC<PilgrimageSpecialSectionProps> =
         .pilgrimage-gradient {
           position: absolute;
           inset: 0;
-          background: linear-gradient(180deg, transparent 40%, rgba(2, 32, 22, 0.8) 100%);
+          background: linear-gradient(180deg, transparent 40%, rgba(44, 14, 5, 0.8) 100%);
         }
 
         .pilgrimage-badge-tag {
@@ -208,7 +208,7 @@ export const PilgrimageSpecialSection: React.FC<PilgrimageSpecialSectionProps> =
           display: inline-flex;
           align-items: center;
           gap: 0.4rem;
-          background: rgba(4, 56, 40, 0.9);
+          background: rgba(44, 14, 5, 0.9);
           border: 1px solid var(--gold-400);
           color: #ffffff;
           font-size: 0.72rem;
@@ -267,7 +267,7 @@ export const PilgrimageSpecialSection: React.FC<PilgrimageSpecialSectionProps> =
           font-weight: 800;
           text-transform: uppercase;
           letter-spacing: 0.6px;
-          color: var(--emerald-900);
+          color: var(--orange-900);
           margin-bottom: 0.75rem;
         }
 
@@ -340,8 +340,8 @@ export const PilgrimageSpecialSection: React.FC<PilgrimageSpecialSectionProps> =
           gap: 0.45rem;
           padding: 0.75rem 1.15rem;
           border-radius: var(--radius-md);
-          border: 1.5px solid var(--emerald-800);
-          color: var(--emerald-800);
+          border: 1.5px solid var(--orange-600);
+          color: var(--orange-700);
           font-weight: 700;
           font-size: 0.86rem;
           background: transparent;
@@ -349,17 +349,17 @@ export const PilgrimageSpecialSection: React.FC<PilgrimageSpecialSectionProps> =
         }
 
         .pilgrimage-call-btn:hover {
-          background: var(--emerald-800);
-          color: var(--gold-300);
+          background: var(--orange-600);
+          color: #ffffff;
         }
 
         /* Pilgrimage Trust Banner */
         .pilgrimage-trust-banner {
-          background: var(--grad-emerald);
+          background: var(--grad-orange-deep);
           border: 1.5px solid rgba(212, 175, 55, 0.4);
           border-radius: var(--radius-lg);
           padding: 2rem 2.5rem;
-          box-shadow: var(--shadow-emerald);
+          box-shadow: var(--shadow-orange);
           color: #ffffff;
         }
 

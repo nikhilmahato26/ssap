@@ -161,7 +161,7 @@ export const TripPlannerSection: React.FC<TripPlannerSectionProps> = ({ onSucces
 
                     <a
                       href={`tel:${BRAND_CONTACT.primaryPhoneRaw}`}
-                      className="btn-emerald success-btn"
+                      className="btn-orange success-btn"
                     >
                       <Phone size={16} />
                       <span>Call {BRAND_CONTACT.primaryPhone}</span>
@@ -336,7 +336,7 @@ export const TripPlannerSection: React.FC<TripPlannerSectionProps> = ({ onSucces
 
         /* Left Info Column */
         .planner-info-col {
-          background: var(--grad-emerald);
+          background: var(--grad-orange-deep);
           color: #ffffff;
           padding: 3.5rem 3rem;
           display: flex;
@@ -361,7 +361,7 @@ export const TripPlannerSection: React.FC<TripPlannerSectionProps> = ({ onSucces
         }
 
         .touchpoints-card {
-          background: rgba(2, 32, 22, 0.6);
+          background: rgba(44, 14, 5, 0.65);
           border: 1px solid rgba(212, 175, 55, 0.3);
           border-radius: var(--radius-lg);
           padding: 1.5rem;
@@ -472,14 +472,14 @@ export const TripPlannerSection: React.FC<TripPlannerSectionProps> = ({ onSucces
         .form-label {
           font-size: 0.8rem;
           font-weight: 700;
-          color: var(--emerald-950);
+          color: var(--orange-950);
           letter-spacing: 0.3px;
         }
 
         .form-control {
           width: 100%;
           padding: 0.75rem 1rem;
-          border: 1.5px solid rgba(6, 78, 59, 0.2);
+          border: 1.5px solid rgba(194, 65, 12, 0.22);
           border-radius: var(--radius-md);
           font-size: 0.92rem;
           font-family: var(--font-sans);
@@ -490,8 +490,8 @@ export const TripPlannerSection: React.FC<TripPlannerSectionProps> = ({ onSucces
 
         .form-control:focus {
           outline: none;
-          border-color: var(--emerald-800);
-          box-shadow: 0 0 0 3px rgba(6, 78, 59, 0.1);
+          border-color: var(--orange-600);
+          box-shadow: 0 0 0 3px rgba(234, 88, 12, 0.15);
           background: #ffffff;
         }
 
@@ -554,7 +554,7 @@ export const TripPlannerSection: React.FC<TripPlannerSectionProps> = ({ onSucces
 
         .success-title {
           font-size: 1.8rem;
-          color: var(--emerald-950);
+          color: var(--orange-950);
           margin-bottom: 0.75rem;
         }
 
@@ -587,7 +587,7 @@ export const TripPlannerSection: React.FC<TripPlannerSectionProps> = ({ onSucces
           font-family: var(--font-heading);
           font-size: 1.25rem;
           font-weight: 900;
-          color: var(--emerald-900);
+          color: var(--orange-900);
           letter-spacing: 1.5px;
         }
 
@@ -607,7 +607,7 @@ export const TripPlannerSection: React.FC<TripPlannerSectionProps> = ({ onSucces
         .reset-form-link {
           margin-top: 0.5rem;
           font-size: 0.82rem;
-          color: var(--emerald-800);
+          color: var(--orange-700);
           font-weight: 700;
           text-decoration: underline;
         }

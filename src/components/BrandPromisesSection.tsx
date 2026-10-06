@@ -131,16 +131,16 @@ export const BrandPromisesSection: React.FC = () => {
         .promise-card:hover {
           transform: translateY(-5px);
           border-color: var(--gold-500);
-          box-shadow: 0 14px 35px rgba(4, 56, 40, 0.1);
+          box-shadow: 0 14px 35px rgba(124, 45, 18, 0.12);
         }
 
         .promise-icon-wrap {
           width: 58px;
           height: 58px;
           border-radius: 14px;
-          background: rgba(6, 78, 59, 0.08);
+          background: rgba(234, 88, 12, 0.1);
           border: 1.5px solid rgba(212, 175, 55, 0.35);
-          color: var(--emerald-850);
+          color: var(--orange-700);
           display: flex;
           align-items: center;
           justify-content: center;
@@ -149,7 +149,7 @@ export const BrandPromisesSection: React.FC = () => {
         }
 
         .promise-card:hover .promise-icon-wrap {
-          background: var(--grad-emerald);
+          background: var(--grad-orange-deep);
           color: var(--gold-300);
           border-color: var(--gold-400);
         }
@@ -171,11 +171,11 @@ export const BrandPromisesSection: React.FC = () => {
 
         /* Operational Banner */
         .operational-banner {
-          background: var(--grad-emerald);
+          background: var(--grad-orange-deep);
           border: 1.5px solid rgba(212, 175, 55, 0.35);
           border-radius: var(--radius-xl);
           padding: 2.25rem 2rem;
-          box-shadow: var(--shadow-emerald);
+          box-shadow: var(--shadow-orange);
           color: #ffffff;
         }
 

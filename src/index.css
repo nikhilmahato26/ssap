@@ -1,33 +1,37 @@
 /* ==========================================================================
-   SSAP TRAVELS - WARM ROYAL SUNSET ORANGE & EMERALD LUXURY DESIGN SYSTEM
+   SSAP TRAVELS - ROYAL SUNSET ORANGE & AMBER LUXURY DESIGN SYSTEM
    ========================================================================== */
 
 :root {
-  /* Warm Sunset Orange & Amber Palette */
-  --orange-950: #431407;
-  --orange-900: #7c2d12;
-  --orange-850: #9a3412;
-  --orange-800: #c2410c;
-  --orange-700: #ea580c;
-  --orange-600: #f97316;
-  --orange-500: #fb923c;
+  /* Royal Sunset Orange & Amber Palette */
+  --orange-950: #2c0e05;
+  --orange-900: #431407;
+  --orange-850: #601e0a;
+  --orange-800: #7c2d12;
+  --orange-750: #9a3412;
+  --orange-700: #c2410c;
+  --orange-650: #d9480f;
+  --orange-600: #ea580c;
+  --orange-550: #f76707;
+  --orange-500: #f97316;
+  --orange-450: #fb923c;
   --orange-400: #fdba74;
   --orange-300: #fed7aa;
   --orange-200: #ffedd5;
   --orange-100: #fff7ed;
   --orange-50:  #fffaf5;
 
-  /* Deep Emerald Accents */
-  --emerald-950: #022016;
-  --emerald-900: #043828;
-  --emerald-850: #054532;
-  --emerald-800: #064e3b;
-  --emerald-700: #0a664e;
-  --emerald-600: #0d7f61;
-  --emerald-100: #e2f2ec;
-  --emerald-50:  #f0f8f5;
+  /* Theme Primary Colors (Migrated from green to royal sunset terracotta/orange) */
+  --emerald-950: #2c0e05;
+  --emerald-900: #431407;
+  --emerald-850: #601e0a;
+  --emerald-800: #7c2d12;
+  --emerald-700: #c2410c;
+  --emerald-600: #ea580c;
+  --emerald-100: #ffedd5;
+  --emerald-50:  #fff7ed;
 
-  /* Rich Gold Accents */
+  /* Rich Gold & Amber Accents */
   --gold-700: #8f6b0d;
   --gold-600: #b38612;
   --gold-500: #d4af37;
@@ -37,36 +41,37 @@
   --gold-100: #fdf8e6;
   --gold-50:  #fffdf7;
 
-  /* Warm Orange & Amber Ivory Backgrounds */
+  /* Warm Orange & Amber Backgrounds */
   --ivory-50:  #ffffff;
   --ivory-100: #fff7ed; /* Lightest warm sunset orange cream */
   --ivory-200: #ffedd5; /* Warm royal sunset orange background */
   --ivory-300: #fed7aa; /* Rich sunset amber */
   --ivory-400: #fdba74; /* Warm orange border */
 
-  /* Text & Contrast */
-  --text-dark: #052e16;  /* Deep forest green delivers ultra-crisp readable contrast */
-  --text-body: #1e3a2f;
-  --text-muted: #524034; /* Warm dark umber/muted */
-  --text-light: #7c6759;
+  /* Text & Contrast (Rich Dark Roast Espresso - Zero green, supreme readability) */
+  --text-dark: #271406;
+  --text-body: #3c1e0f;
+  --text-muted: #694632;
+  --text-light: #946f56;
   --text-ivory: #fff7ed;
 
   /* Gradients */
-  --grad-orange: linear-gradient(135deg, #ea580c 0%, #f97316 45%, #fb923c 80%, #ea580c 100%);
-  --grad-orange-subtle: linear-gradient(135deg, rgba(249, 115, 22, 0.16) 0%, rgba(249, 115, 22, 0.05) 100%);
-  --grad-emerald: linear-gradient(135deg, #043828 0%, #064e3b 50%, #085a44 100%);
-  --grad-emerald-dark: linear-gradient(180deg, #022016 0%, #043828 100%);
-  --grad-gold: linear-gradient(135deg, #ea580c 0%, #f97316 30%, #d4af37 70%, #b38612 100%);
+  --grad-orange: linear-gradient(135deg, #c2410c 0%, #ea580c 45%, #f97316 80%, #ea580c 100%);
+  --grad-orange-deep: linear-gradient(135deg, #431407 0%, #7c2d12 40%, #c2410c 100%);
+  --grad-orange-dark: linear-gradient(180deg, #2c0e05 0%, #431407 100%);
+  --grad-emerald: linear-gradient(135deg, #431407 0%, #7c2d12 35%, #c2410c 70%, #ea580c 100%);
+  --grad-emerald-dark: linear-gradient(180deg, #2c0e05 0%, #431407 100%);
+  --grad-gold: linear-gradient(135deg, #c2410c 0%, #ea580c 30%, #f97316 65%, #d4af37 100%);
   --grad-gold-subtle: linear-gradient(135deg, rgba(234, 88, 12, 0.15) 0%, rgba(212, 175, 55, 0.08) 100%);
   --grad-sunset: linear-gradient(180deg, #fff7ed 0%, #ffedd5 100%);
 
   /* Shadows */
-  --shadow-sm: 0 2px 8px rgba(124, 45, 18, 0.06);
-  --shadow-md: 0 8px 24px rgba(124, 45, 18, 0.09);
-  --shadow-lg: 0 16px 40px rgba(124, 45, 18, 0.13);
-  --shadow-orange: 0 8px 30px rgba(234, 88, 12, 0.3);
+  --shadow-sm: 0 2px 8px rgba(67, 20, 7, 0.08);
+  --shadow-md: 0 8px 24px rgba(67, 20, 7, 0.12);
+  --shadow-lg: 0 16px 40px rgba(67, 20, 7, 0.16);
+  --shadow-orange: 0 8px 30px rgba(234, 88, 12, 0.35);
   --shadow-gold: 0 8px 30px rgba(212, 175, 55, 0.28);
-  --shadow-emerald: 0 12px 36px rgba(4, 56, 40, 0.25);
+  --shadow-emerald: 0 12px 36px rgba(67, 20, 7, 0.3);
 
   /* Borders & Radius */
   --radius-sm: 6px;
@@ -103,8 +108,8 @@ body {
   overflow-x: hidden;
   background-color: #ffedd5;
   background-image: 
-    radial-gradient(circle at 10% 12%, rgba(249, 115, 22, 0.14) 0%, transparent 40%),
-    radial-gradient(circle at 90% 88%, rgba(234, 88, 12, 0.12) 0%, transparent 45%),
+    radial-gradient(circle at 10% 12%, rgba(249, 115, 22, 0.16) 0%, transparent 40%),
+    radial-gradient(circle at 90% 88%, rgba(234, 88, 12, 0.14) 0%, transparent 45%),
     radial-gradient(circle at 50% 35%, rgba(254, 215, 170, 0.45) 0%, transparent 60%);
   color: var(--text-body);
   min-height: 100vh;
@@ -212,7 +217,7 @@ button {
   margin: 0 auto;
 }
 
-/* Gold / Orange Ornamental Divider */
+/* Orange Ornamental Divider */
 .ornament-divider {
   display: flex;
   align-items: center;
@@ -241,9 +246,9 @@ button {
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
-  background: linear-gradient(135deg, #ea580c 0%, #f97316 35%, #d4af37 70%, #b38612 100%);
+  background: linear-gradient(135deg, #c2410c 0%, #ea580c 35%, #f97316 70%, #d4af37 100%);
   color: #ffffff;
-  font-weight: 700;
+  font-weight: 800;
   font-size: 0.95rem;
   letter-spacing: 0.4px;
   padding: 0.85rem 1.8rem;
@@ -266,7 +271,7 @@ button {
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
-  background: linear-gradient(135deg, #c2410c 0%, #ea580c 40%, #f97316 100%);
+  background: linear-gradient(135deg, #9a3412 0%, #c2410c 35%, #ea580c 70%, #f97316 100%);
   color: #ffffff;
   font-weight: 800;
   font-size: 0.95rem;
@@ -289,15 +294,15 @@ button {
   align-items: center;
   justify-content: center;
   gap: 0.6rem;
-  background: var(--grad-emerald);
-  color: var(--ivory-50);
+  background: var(--grad-orange-deep);
+  color: #ffffff;
   font-weight: 700;
   font-size: 0.95rem;
   letter-spacing: 0.4px;
   padding: 0.85rem 1.8rem;
   border-radius: var(--radius-md);
-  box-shadow: var(--shadow-emerald);
-  border: 1px solid rgba(234, 88, 12, 0.4);
+  box-shadow: 0 6px 20px rgba(67, 20, 7, 0.3);
+  border: 1px solid rgba(251, 146, 60, 0.4);
   position: relative;
   overflow: hidden;
   transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
@@ -305,8 +310,8 @@ button {
 
 .btn-emerald:hover {
   transform: translateY(-2px);
-  box-shadow: 0 8px 28px rgba(4, 56, 40, 0.35);
-  border-color: #ea580c;
+  box-shadow: 0 8px 28px rgba(234, 88, 12, 0.4);
+  border-color: #f97316;
 }
 
 .btn-outline-gold {
@@ -315,7 +320,7 @@ button {
   justify-content: center;
   gap: 0.6rem;
   background: rgba(255, 255, 255, 0.85);
-  color: var(--emerald-900);
+  color: #7c2d12;
   font-weight: 700;
   font-size: 0.95rem;
   padding: 0.85rem 1.8rem;
@@ -338,7 +343,7 @@ button {
   justify-content: center;
   gap: 0.6rem;
   background: #ffffff;
-  color: var(--emerald-900);
+  color: #7c2d12;
   font-weight: 700;
   font-size: 0.95rem;
   padding: 0.85rem 1.8rem;
@@ -350,7 +355,7 @@ button {
 .btn-white:hover {
   background: #fff7ed;
   border-color: #ea580c;
-  color: var(--emerald-950);
+  color: #431407;
   transform: translateY(-2px);
 }
 
@@ -359,23 +364,24 @@ button {
   background: #ffffff;
   border: 1.5px solid rgba(234, 88, 12, 0.22);
   border-radius: var(--radius-lg);
-  box-shadow: 0 4px 16px rgba(124, 45, 18, 0.06);
+  box-shadow: 0 4px 16px rgba(67, 20, 7, 0.06);
   transition: transform 0.25s ease, box-shadow 0.25s ease, border-color 0.25s ease;
   position: relative;
 }
 
 .luxury-card:hover {
   transform: translateY(-4px);
-  box-shadow: 0 16px 40px rgba(124, 45, 18, 0.14);
+  box-shadow: 0 16px 40px rgba(67, 20, 7, 0.14);
   border-color: #ea580c;
 }
 
+.orange-banner,
 .emerald-banner {
-  background: var(--grad-emerald);
-  color: var(--ivory-50);
+  background: linear-gradient(135deg, #351006 0%, #601e0a 35%, #7c2d12 70%, #c2410c 100%);
+  color: #fff7ed;
   border-radius: var(--radius-xl);
-  border: 1.5px solid rgba(234, 88, 12, 0.45);
-  box-shadow: var(--shadow-emerald);
+  border: 1.5px solid rgba(251, 146, 60, 0.45);
+  box-shadow: 0 14px 40px rgba(67, 20, 7, 0.3);
   position: relative;
   overflow: hidden;
 }
@@ -390,7 +396,7 @@ button {
   content: '';
   position: absolute;
   top: 0; left: 0; right: 0; bottom: 0;
-  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.18), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.22), transparent);
   transform: translateX(-100%);
   animation: shimmer 4s infinite;
   pointer-events: none;
@@ -422,9 +428,9 @@ button {
   text-transform: uppercase;
   padding: 0.3rem 0.75rem;
   border-radius: var(--radius-full);
-  background: rgba(6, 78, 59, 0.1);
-  color: var(--emerald-800);
-  border: 1px solid rgba(6, 78, 59, 0.2);
+  background: rgba(234, 88, 12, 0.12);
+  color: #c2410c;
+  border: 1px solid rgba(234, 88, 12, 0.25);
 }
 
 /* Mobile Sticky Bar */

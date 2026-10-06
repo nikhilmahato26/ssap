@@ -96,7 +96,7 @@ export const HolidayPackagesSection: React.FC<HolidayPackagesSectionProps> = ({ 
         </div>
 
         {/* Custom Tour Inquiry Box */}
-        <div className="custom-tour-banner emerald-banner">
+        <div className="custom-tour-banner orange-banner">
           <div className="custom-tour-flex">
             <div>
               <div className="custom-banner-eyebrow">
@@ -160,7 +160,7 @@ export const HolidayPackagesSection: React.FC<HolidayPackagesSectionProps> = ({ 
         .holiday-overlay {
           position: absolute;
           inset: 0;
-          background: linear-gradient(180deg, transparent 40%, rgba(2, 32, 22, 0.75) 100%);
+          background: linear-gradient(180deg, transparent 40%, rgba(44, 14, 5, 0.75) 100%);
         }
 
         .holiday-tag-chip {
@@ -170,7 +170,7 @@ export const HolidayPackagesSection: React.FC<HolidayPackagesSectionProps> = ({ 
           font-size: 0.72rem;
           font-weight: 800;
           text-transform: uppercase;
-          background: rgba(4, 56, 40, 0.85);
+          background: rgba(44, 14, 5, 0.85);
           color: var(--gold-300);
           border: 1px solid rgba(212, 175, 55, 0.4);
           border-radius: var(--radius-full);
@@ -221,7 +221,7 @@ export const HolidayPackagesSection: React.FC<HolidayPackagesSectionProps> = ({ 
           gap: 0.4rem;
           margin-bottom: 1.25rem;
           padding-top: 0.75rem;
-          border-top: 1px solid rgba(6, 78, 59, 0.08);
+          border-top: 1px solid rgba(194, 65, 12, 0.12);
         }
 
         .holiday-feat {
@@ -229,7 +229,7 @@ export const HolidayPackagesSection: React.FC<HolidayPackagesSectionProps> = ({ 
           align-items: center;
           gap: 0.45rem;
           font-size: 0.8rem;
-          color: var(--emerald-900);
+          color: var(--orange-900);
           font-weight: 600;
         }
 
@@ -245,7 +245,7 @@ export const HolidayPackagesSection: React.FC<HolidayPackagesSectionProps> = ({ 
           gap: 0.5rem;
           background: var(--ivory-200);
           border: 1px solid rgba(212, 175, 55, 0.35);
-          color: var(--emerald-900);
+          color: var(--orange-900);
           font-weight: 700;
           font-size: 0.86rem;
           padding: 0.7rem 1rem;
@@ -254,7 +254,7 @@ export const HolidayPackagesSection: React.FC<HolidayPackagesSectionProps> = ({ 
         }
 
         .holiday-card:hover .holiday-btn {
-          background: var(--grad-emerald);
+          background: var(--grad-orange-deep);
           color: var(--gold-300);
           border-color: var(--gold-400);
         }

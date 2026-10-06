@@ -213,11 +213,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
         }
 
         .top-bar {
-          background-color: var(--emerald-950);
-          color: rgba(250, 248, 242, 0.85);
+          background-color: #2c0e05;
+          color: rgba(255, 247, 237, 0.9);
           font-size: 0.8rem;
           padding: 0.45rem 0;
-          border-bottom: 1px solid rgba(212, 175, 55, 0.25);
+          border-bottom: 1px solid rgba(251, 146, 60, 0.25);
         }
 
         .top-bar-container {
@@ -244,32 +244,32 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           display: inline-flex;
           align-items: center;
           gap: 0.35rem;
-          color: rgba(250, 248, 242, 0.9);
+          color: rgba(255, 247, 237, 0.9);
           transition: color 0.2s ease;
         }
 
         .top-bar-link:hover {
-          color: var(--gold-400);
+          color: #fb923c;
         }
 
         .top-bar-sep {
-          color: rgba(212, 175, 55, 0.4);
+          color: rgba(251, 146, 60, 0.4);
         }
 
         .text-gold {
-          color: var(--gold-400);
+          color: #fb923c;
         }
 
         .main-navbar {
-          background: rgba(4, 56, 40, 0.96);
+          background: rgba(44, 14, 5, 0.95);
           backdrop-filter: blur(12px);
-          border-bottom: 1px solid rgba(212, 175, 55, 0.3);
+          border-bottom: 1px solid rgba(234, 88, 12, 0.35);
           transition: all 0.3s ease;
         }
 
         .main-navbar.scrolled {
-          background: rgba(2, 32, 22, 0.98);
-          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+          background: rgba(28, 9, 3, 0.98);
+          box-shadow: 0 10px 30px rgba(0, 0, 0, 0.35);
         }
 
         .main-navbar-container {
@@ -291,14 +291,14 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
         .logo-emblem {
           width: 46px;
           height: 46px;
-          background: linear-gradient(135deg, #054532 0%, #03271c 100%);
-          border: 1.5px solid var(--gold-500);
+          background: linear-gradient(135deg, #7c2d12 0%, #351006 100%);
+          border: 1.5px solid #f97316;
           border-radius: 10px;
           display: flex;
           align-items: center;
           justify-content: center;
           position: relative;
-          box-shadow: 0 0 12px rgba(212, 175, 55, 0.25);
+          box-shadow: 0 0 14px rgba(234, 88, 12, 0.35);
         }
 
         .logo-initials {
@@ -437,8 +437,8 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           bottom: 0;
           width: 85%;
           max-width: 360px;
-          background: var(--emerald-950);
-          border-left: 1px solid rgba(212, 175, 55, 0.4);
+          background: #2c0e05;
+          border-left: 1px solid rgba(251, 146, 60, 0.4);
           display: flex;
           flex-direction: column;
           box-shadow: -10px 0 30px rgba(0,0,0,0.5);
@@ -450,11 +450,11 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           justify-content: space-between;
           align-items: center;
           padding: 1.25rem 1.5rem;
-          border-bottom: 1px solid rgba(212, 175, 55, 0.2);
+          border-bottom: 1px solid rgba(251, 146, 60, 0.2);
         }
 
         .mobile-close-btn {
-          color: var(--gold-400);
+          color: #fb923c;
         }
 
         .mobile-drawer-body {
@@ -476,15 +476,15 @@ export const Navbar: React.FC<NavbarProps> = ({ onOpenEnquiry }) => {
           align-items: center;
           justify-content: space-between;
           padding: 0.8rem 0.5rem;
-          color: var(--ivory-50);
+          color: #fff7ed;
           font-size: 1rem;
           font-weight: 600;
-          border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+          border-bottom: 1px solid rgba(255, 255, 255, 0.08);
         }
 
         .mobile-contact-card {
-          background: rgba(6, 78, 59, 0.4);
-          border: 1px solid rgba(212, 175, 55, 0.25);
+          background: rgba(124, 45, 18, 0.45);
+          border: 1px solid rgba(251, 146, 60, 0.3);
           border-radius: var(--radius-md);
           padding: 1.2rem;
           display: flex;

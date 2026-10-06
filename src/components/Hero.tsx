@@ -9,7 +9,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
   return (
     <section className="hero-section">
       <div className="hero-background-effects">
-        <div className="hero-glow-emerald"></div>
+        <div className="hero-glow-sunset"></div>
         <div className="hero-glow-gold"></div>
         <div className="hero-glow-orange"></div>
         <div className="hero-pattern-overlay"></div>
@@ -147,7 +147,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
       <style>{`
         .hero-section {
           position: relative;
-          background: linear-gradient(175deg, #022016 0%, #043828 40%, #064e3b 85%, #085540 100%);
+          background: linear-gradient(175deg, #2b0d05 0%, #431407 35%, #7c2d12 70%, #9a3412 100%);
           color: var(--ivory-50);
           padding-top: 4.5rem;
           padding-bottom: 5.5rem;
@@ -162,12 +162,12 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
           overflow: hidden;
         }
 
-        .hero-glow-emerald {
+        .hero-glow-sunset {
           position: absolute;
           width: 600px;
           height: 600px;
           border-radius: 50%;
-          background: radial-gradient(circle, rgba(13, 127, 97, 0.28) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(234, 88, 12, 0.35) 0%, transparent 70%);
           top: -150px;
           right: -100px;
           filter: blur(80px);
@@ -178,7 +178,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
           width: 500px;
           height: 500px;
           border-radius: 50%;
-          background: radial-gradient(circle, rgba(212, 175, 55, 0.16) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(251, 146, 60, 0.25) 0%, transparent 70%);
           bottom: -100px;
           left: 10%;
           filter: blur(80px);
@@ -189,7 +189,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
           width: 550px;
           height: 550px;
           border-radius: 50%;
-          background: radial-gradient(circle, rgba(234, 88, 12, 0.28) 0%, transparent 70%);
+          background: radial-gradient(circle, rgba(234, 88, 12, 0.35) 0%, transparent 70%);
           bottom: -120px;
           right: 12%;
           filter: blur(80px);
@@ -198,7 +198,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
         .hero-pattern-overlay {
           position: absolute;
           inset: 0;
-          background-image: radial-gradient(rgba(212, 175, 55, 0.08) 1px, transparent 1px);
+          background-image: radial-gradient(rgba(251, 146, 60, 0.12) 1px, transparent 1px);
           background-size: 28px 28px;
           opacity: 0.6;
         }
@@ -227,8 +227,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
           align-items: center;
           gap: 0.65rem;
           width: fit-content;
-          background: rgba(4, 56, 40, 0.7);
-          border: 1px solid rgba(212, 175, 55, 0.4);
+          background: rgba(43, 13, 5, 0.75);
+          border: 1px solid rgba(251, 146, 60, 0.45);
           padding: 0.4rem 1rem;
           border-radius: var(--radius-full);
           backdrop-filter: blur(8px);
@@ -313,8 +313,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
           display: inline-flex;
           align-items: center;
           gap: 0.75rem;
-          background: rgba(4, 56, 40, 0.5);
-          border: 1.5px solid var(--gold-500);
+          background: rgba(43, 13, 5, 0.65);
+          border: 1.5px solid #ea580c;
           color: #ffffff;
           padding: 0.75rem 1.6rem;
           border-radius: var(--radius-md);
@@ -323,8 +323,8 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
         }
 
         .hero-secondary-btn:hover {
-          background: rgba(212, 175, 55, 0.18);
-          border-color: var(--gold-300);
+          background: rgba(234, 88, 12, 0.25);
+          border-color: #f97316;
           color: #ffffff;
           transform: translateY(-2px);
         }
@@ -385,11 +385,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
 
         .hero-frame-card {
           position: relative;
-          background: rgba(2, 32, 22, 0.75);
-          border: 1.5px solid rgba(212, 175, 55, 0.45);
+          background: rgba(43, 13, 5, 0.85);
+          border: 1.5px solid rgba(251, 146, 60, 0.45);
           border-radius: var(--radius-xl);
           padding: 0.85rem;
-          box-shadow: 0 20px 50px rgba(0, 0, 0, 0.45), 0 0 25px rgba(212, 175, 55, 0.2);
+          box-shadow: 0 20px 50px rgba(0, 0, 0, 0.5), 0 0 25px rgba(234, 88, 12, 0.25);
           backdrop-filter: blur(8px);
         }
 
@@ -416,7 +416,7 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
         .hero-image-overlay {
           position: absolute;
           inset: 0;
-          background: linear-gradient(180deg, transparent 65%, rgba(2, 32, 22, 0.8) 100%);
+          background: linear-gradient(180deg, transparent 65%, rgba(43, 13, 5, 0.85) 100%);
           pointer-events: none;
         }
 
@@ -467,11 +467,11 @@ export const Hero: React.FC<HeroProps> = ({ onOpenEnquiry }) => {
           display: flex;
           align-items: center;
           gap: 0.75rem;
-          background: rgba(4, 56, 40, 0.92);
-          border: 1px solid rgba(212, 175, 55, 0.4);
+          background: rgba(43, 13, 5, 0.94);
+          border: 1px solid rgba(251, 146, 60, 0.45);
           border-radius: var(--radius-md);
           padding: 0.65rem 1rem;
-          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+          box-shadow: 0 8px 24px rgba(0, 0, 0, 0.4);
           backdrop-filter: blur(12px);
           animation: floatSlow 5s ease-in-out infinite;
         }
